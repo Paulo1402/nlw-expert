@@ -12,16 +12,16 @@ Content-Type: application/json
 
 ### 
 
-GET http://localhost:3333/polls/9753202f-1200-416c-90fb-951b2134a4c8
+GET http://localhost:3333/polls/157d2d35-8c30-4047-849c-cdffb054dda5
 
 ### 
-POST http://localhost:3333/polls/9753202f-1200-416c-90fb-951b2134a4c8/votes
+POST http://localhost:3333/polls/157d2d35-8c30-4047-849c-cdffb054dda5/votes
 Content-Type: application/json
 
 {
-  "pollOptionId": "e664e1cd-ec7a-46d6-831c-f15a5de2200f"
+  "pollOptionId": "e93ffa08-414a-4790-b07e-e1718e587a58"
 }
 
 # {
-#   "pollOptionId": "1f82da9f-2503-4d85-b4ad-91aeb69107b4"
+#   "pollOptionId": "cf4c12ce-5c90-435e-bda2-726854ef7a49"
 # }
