@@ -2,5 +2,26 @@ POST http://localhost:3333/polls
 Content-Type: application/json
 
 {
-  "title": "What is your favorite color?"
+  "title": "What is your favorite color?",
+  "options": [
+    "Red",
+    "Green",
+    "Blue"
+  ]
 }
+
+### 
+
+GET http://localhost:3333/polls/9753202f-1200-416c-90fb-951b2134a4c8
+
+### 
+POST http://localhost:3333/polls/9753202f-1200-416c-90fb-951b2134a4c8/votes
+Content-Type: application/json
+
+{
+  "pollOptionId": "e664e1cd-ec7a-46d6-831c-f15a5de2200f"
+}
+
+# {
+#   "pollOptionId": "1f82da9f-2503-4d85-b4ad-91aeb69107b4"
+# }
